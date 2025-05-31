@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include maldives_compliance *.css
+recursive-include maldives_compliance *.csv
+recursive-include maldives_compliance *.html
+recursive-include maldives_compliance *.ico
+recursive-include maldives_compliance *.js
+recursive-include maldives_compliance *.json
+recursive-include maldives_compliance *.md
+recursive-include maldives_compliance *.png
+recursive-include maldives_compliance *.py
+recursive-include maldives_compliance *.svg
+recursive-include maldives_compliance *.txt
+recursive-exclude maldives_compliance *.pyc
