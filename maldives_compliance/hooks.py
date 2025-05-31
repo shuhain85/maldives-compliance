@@ -16,7 +16,7 @@ after_app_install = "maldives_compliance.install.after_app_install"
 before_app_uninstall = "maldives_compliance.uninstall.before_app_uninstall"
 
 before_migrate = "maldives_compliance.patches.check_version_compatibility.execute"
-after_migrate = "maldives_compliance.audit_trail.setup.after_migrate"
+#after_migrate = "maldives_compliance.audit_trail.setup.after_migrate"
 
 before_tests = "maldives_compliance.tests.before_tests"
 

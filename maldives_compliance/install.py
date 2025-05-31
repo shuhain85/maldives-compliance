@@ -53,7 +53,7 @@ POST_INSTALL_PATCHES = (
 
 def after_install():
     try:
-        setup_audit_trail()
+        #setup_audit_trail()
 
         print("Setting up Income Tax...")
         setup_income_tax()
